@@ -17,7 +17,7 @@ export default defineComponent({
 </script>
 <style>
 .stack {
-  background-image: url("public/icons/stack.svg");
+  background-image: url("/icons/stack.svg");
   background-size: contain;
   background-position: center;
 }

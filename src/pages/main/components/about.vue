@@ -77,7 +77,7 @@ export default defineComponent({
 .main__page-about-glass-overlay-header-icon {
   width: 143px;
   height: 140px;
-  background-image: url("public/icons/logo.svg");
+  background-image: url("/icons/logo.svg");
   background-position: center;
   background-repeat: no-repeat;
 }

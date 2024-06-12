@@ -44,7 +44,7 @@ export default defineComponent({
 .header__company-name {
   width: 212px;
   height: 17px;
-  background-image: url("public/icons/tages.svg");
+  background-image: url("/icons/tages.svg");
   background-position: left;
   background-repeat: no-repeat;
 }

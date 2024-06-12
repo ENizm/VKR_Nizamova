@@ -3,7 +3,7 @@
     <div class="work__title"><span class="work__title_bold">Как</span> устроена работа</div>
     <ul class="work__list">
       <li v-for="i in workList" :key="i.icon" class="work__list-item" :style="{
-        backgroundImage: `url(public/icons/${i.icon}.svg)`
+        backgroundImage: `url(/icons/${i.icon}.svg)`
       }">
         <LinkBtn class="work__list--icon"/>
         <div class="work__list-item-description">

@@ -15,7 +15,7 @@
       </div>
       <ul class="team__peoples">
         <li v-for="people in teams" :key="people" class="team__peoples-item" :style="{
-          backgroundImage: `url(public/icons/${people}.svg)`
+          backgroundImage: `url(/icons/${people}.svg)`
         }"/>
       </ul>
     </div>

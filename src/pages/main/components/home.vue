@@ -36,7 +36,7 @@ export default defineComponent({
   padding: 0 156px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("public/images/tages.png");
+  background-image: url("/images/tages.png");
   background-size: 100%;
 }
 
@@ -90,7 +90,7 @@ export default defineComponent({
   height: 63px;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("public/icons/top.svg");
+  background-image: url("/icons/top.svg");
   background-size: 100%;
 }
 </style>

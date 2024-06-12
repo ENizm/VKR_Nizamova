@@ -6,7 +6,7 @@
     <ul class="reviews__list">
       <li v-for="review in companyReviews" :key="review.icon" class="reviews__list-item" :id="review.icon">
         <div class="reviews__list-item-director" :style="{
-          backgroundImage: `url(src/assets/icons/${review.icon}.svg)`
+          backgroundImage: `url(public/icons/${review.icon}.svg)`
         }"/>
         <div class="reviews__list-item-text">
           <span v-for="(item, i) in review.text" :key="i" class="reviews__list-item-text-value" :class="{
@@ -18,7 +18,7 @@
           }}</span>{{ review.position }}
         </div>
         <div class="reviews__list-item-logo" :style="{
-          backgroundImage: `url(src/assets/icons/${review.logo}.svg)`
+          backgroundImage: `url(public/icons/${review.logo}.svg)`
         }"/>
       </li>
     </ul>
@@ -78,7 +78,7 @@ export default defineComponent({
   height: 53px;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("src/assets/icons/companies.svg");
+  background-image: url("public/icons/companies.svg");
   margin: 99px auto 44px auto;
 }
 

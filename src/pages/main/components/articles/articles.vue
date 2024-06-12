@@ -21,10 +21,10 @@
         <div class="articles-list__item-card">
           <div class="articles-list__item-card-header">
             <div class="articles-list__item-card-header-icon1" :style="{
-              backgroundImage: `url(src/assets/icons/${article.icon}.svg)`
+              backgroundImage: `url(public/icons/${article.icon}.svg)`
             }"/>
             <div class="articles-list__item-card-header-author" :style="{
-              backgroundImage: `url(src/assets/icons/${article.author}.svg)`
+              backgroundImage: `url(public/icons/${article.author}.svg)`
             }"/>
           </div>
           <div class="articles-list__item-card-title">{{ article.title }}</div>
@@ -146,11 +146,11 @@ export default defineComponent({
 }
 
 .youtube {
-  background-image: url("src/assets/icons/youtube.svg");
+  background-image: url("public/icons/youtube.svg");
 }
 
 .telegram {
-  background-image: url("src/assets/icons/telegram.svg");
+  background-image: url("public/icons/telegram.svg");
 }
 
 .articles__header-text {
@@ -180,7 +180,7 @@ export default defineComponent({
 
 .articles-list__item-card {
   border-radius: 20px;
-  background-image: url("src/assets/icons/article-bg.svg");
+  background-image: url("public/icons/article-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 14px 20px;

@@ -25,7 +25,7 @@ export default defineComponent({
 .scroller-btns__left {
   width: 53px;
   height: 53px;
-  background-image: url("src/assets/icons/left.svg");
+  background-image: url("public/icons/left.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -33,7 +33,7 @@ export default defineComponent({
 .scroller-btns__right {
   width: 53px;
   height: 53px;
-  background-image: url("src/assets/icons/right.svg");
+  background-image: url("public/icons/right.svg");
   background-repeat: no-repeat;
   background-position: center;
 }

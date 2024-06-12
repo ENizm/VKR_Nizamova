@@ -143,7 +143,7 @@ export default defineComponent({
 }
 
 .blog__footer-logo {
-  background-image: url("src/assets/icons/tages.svg");
+  background-image: url("public/icons/tages.svg");
   background-position: center;
   background-repeat: no-repeat;
   width: 85px;
@@ -174,7 +174,7 @@ export default defineComponent({
 .blog__footer-3-tg {
   height: 19px;
   width: 19px;
-  background-image: url("src/assets/icons/tg-s.svg");
+  background-image: url("public/icons/tg-s.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -183,7 +183,7 @@ export default defineComponent({
 .blog__footer-3-vk {
   height: 19px;
   width: 19px;
-  background-image: url("src/assets/icons/vk-s.svg");
+  background-image: url("public/icons/vk-s.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -192,7 +192,7 @@ export default defineComponent({
 .blog__footer-3-yt {
   height: 19px;
   width: 24px;
-  background-image: url("src/assets/icons/yt-s.svg");
+  background-image: url("public/icons/yt-s.svg");
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;

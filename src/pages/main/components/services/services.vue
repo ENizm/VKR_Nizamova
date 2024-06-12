@@ -17,7 +17,7 @@
         <li
             v-if="selected?.icon === item.icon || !selected"
             class="divisions__item"
-            :style="{backgroundImage: `url(src/assets/icons/${item.icon}.svg`}"
+            :style="{backgroundImage: `url(public/icons/${item.icon}.svg`}"
             @mouseover="select(item)"
         />
       </template>

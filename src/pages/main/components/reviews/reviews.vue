@@ -103,7 +103,7 @@ export default defineComponent({
 }
 
 .reviews__list-item {
-  width: 780px;
+  width: 1100px;
   height: 645px;
   border-radius: 30px;
   border: 1px solid #969393;

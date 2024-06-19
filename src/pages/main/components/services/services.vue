@@ -96,7 +96,7 @@ export default defineComponent({
 .divisions {
   display: flex;
   align-items: stretch;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 28px;
 }
 

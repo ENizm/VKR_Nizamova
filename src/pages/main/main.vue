@@ -8,9 +8,9 @@
     <Work class="main__page work"/>
     <Stack class="main__page" id="stack"/>
     <Team class="main__page"/>
-    <Articles class="main__page"/>
+    <Articles class="main__page" id="blog"/>
     <Offers class="main__page"/>
-    <Blog class="main__page" id="blog"/>
+    <Blog class="main__page"/>
   </div>
 </template>
 <script lang="ts">
